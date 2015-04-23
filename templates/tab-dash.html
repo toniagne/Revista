@@ -1,0 +1,13 @@
+<ion-view view-title="Edições" >
+  <ion-content class="padding">
+    <p>Confira as Edições da Revista Fogos</p>
+         <ion-slide-box>
+          <ion-slide>
+            <div class="box" ng-repeat="edicao in edicoes">
+                <h2>{{edicao.strNome}}</h2>
+                 <img src="http://www.ddd37.com.br/fotos/revista_edicoes/{{edicao.pic}}" width="100%">
+            </div>
+          </ion-slide>
+        </ion-slide-box>  
+  </ion-content>
+</ion-view>
